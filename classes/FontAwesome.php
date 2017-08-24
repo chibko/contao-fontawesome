@@ -1,7 +1,8 @@
 <?php
 
 
-namespace Fontawesome;
+if (!defined('TL_ROOT')) die('You cannot access this file directly!');
+
 
 class FontAwesome
 {
@@ -9,7 +10,7 @@ class FontAwesome
 	{
 		
         if($objLayout->fontawesome)		{
-			$GLOBALS['TL_CSS'][] = 'system/modules/xfontawesome/assets/css/font-awesome.min.css|static';
+			$GLOBALS['TL_CSS'][] = 'system/modules/xFontawesome/assets/css/font-awesome.min.css|static';
 		} 
 	}
 }

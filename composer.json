@@ -15,18 +15,13 @@
         "contao/core-bundle": "4.*",
         "contao-community-alliance/composer-plugin": "3.*"
     },
-   "autoload": {
-        "psr-0": {
-            "FontAwesome\\": "library/"
-        }
-    },
     "replace": {
-        "contao-legacy/xfontawesome": "self.version"
+        "contao-legacy/xFontawesome": "self.version"
     },
     "extra": {
         "contao": {
             "sources": {
-                "": "system/modules/xfontawesome"
+                "": "system/modules/xFontawesome"
             }
         }
     }
