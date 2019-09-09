@@ -21,5 +21,6 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['fontawesome_kiturl'] = array
     'label' => &$GLOBALS['TL_LANG']['tl_layout']['fontawesome_kiturl'],
     'exclude' => true,
     'inputType' => 'text',
+    'eval' => array('preserveTags'=>true),
     'sql' => "varchar(255) NOT NULL default ''"
 );
