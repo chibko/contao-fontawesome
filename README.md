@@ -1,2 +1,2 @@
-# contao-bootstrap
-Provides Boostrap 4 to Contao4
+# Fontawesome 5 for Contao
+Provides a checkbox in the page layout to add fontawesome support
