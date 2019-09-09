@@ -1,0 +1,32 @@
+{
+    "name": "chibko/contao-fontawesome",
+    "description": "Extend Contao with fontawesome",
+    "keywords": ["contao", "fontawesome"],
+    "authors": [
+        {
+            "name": "Chibko Stéphane",
+            "homepage": "http://www.chibko.com"
+        }
+    ],
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "homepage": "https://chibko.com/",
+    "require": {
+        "php": "^7.1",
+        "contao/core-bundle": "^4.4",
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "conflict": {
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chibko\\Contao\\Fontawesome\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Chibko\\Contao\\Fontawesome\\ContaoManager\\Plugin"
+    }
+}
