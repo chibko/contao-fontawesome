@@ -6,7 +6,7 @@ use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Chibko\Contao\Bootstrap4\ChibkoContaoBootstrap4Bundle;
+use Chibko\Contao\Fontawesome\ChibkoContaoFontawesomeBundle;
 
 
 class Plugin implements BundlePluginInterface
