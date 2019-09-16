@@ -13,7 +13,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class ChibkoContaoBootstrap4Extension extends Extension
+class ChibkoContaoFontawesomeExtension extends Extension
 {
     /**
      * {@inheritdoc}
