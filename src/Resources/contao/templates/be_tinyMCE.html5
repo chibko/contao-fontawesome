@@ -35,7 +35,7 @@ if ($GLOBALS['TL_CONFIG']['useRTE']):
                 plugins: 'autosave charmap code fullscreen image link lists paste searchreplace stripnbsp tabfocus table visualblocks ',
                 browser_spellcheck: true,
                 tabfocus_elements: ':prev,:next',
-                //importcss_append: true,
+                importcss_append: true,
                 style_formats: [
                     {
                         title: "Headers", items: [
@@ -90,7 +90,7 @@ if ($GLOBALS['TL_CONFIG']['useRTE']):
                         ]
                     }
                 ],
-                content_css: "<?php echo TL_PATH; ?>/system/themes/tinymce.css",
+                content_css: "<?php echo TL_PATH; ?>/system/themes/tinymce.css,<?php echo TL_PATH; ?>/web/bundles/contaofontawesome/css/all.min.css",
 
                 extended_valid_elements: ''
                     + 'q[cite|class|title],article,section,hgroup,figure,figcaption'
@@ -108,7 +108,7 @@ if ($GLOBALS['TL_CONFIG']['useRTE']):
                     + "span[*],"
                     + "i[*],",
                 menubar: 'file edit insert view format table',
-                toolbar: 'link unlink | bold italic subscript superscript | styleselect | alignleft aligncenter alignright alignjustify | bullist numlist | undo redo | code'
+                toolbar: 'link unlink | image | bold italic subscript superscript | styleselect | alignleft aligncenter alignright alignjustify | bullist numlist outdent | undo redo | code'
             });
         }, 0);
     </script>
