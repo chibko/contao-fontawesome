@@ -90,7 +90,7 @@ if ($GLOBALS['TL_CONFIG']['useRTE']):
                         ]
                     }
                 ],
-                content_css: "<?php echo TL_PATH; ?>/system/themes/tinymce.css,<?php echo TL_PATH; ?>/web/bundles/contaofontawesome/css/all.min.css",
+                content_css: "<?php echo TL_PATH; ?>/system/themes/tinymce.css,<?php echo TL_PATH; ?>/bundles/chibkocontaofontawesome/css/all.min.css",
 
                 extended_valid_elements: ''
                     + 'q[cite|class|title],article,section,hgroup,figure,figcaption'
